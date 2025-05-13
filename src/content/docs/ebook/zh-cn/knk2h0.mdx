@@ -132,7 +132,7 @@ description: 杨翊（席翁）Nacos PMC在上文 Nacos 注册中心的设计原
 <a name="O5WbY"></a>
 ## 元数据的生命周期
 
-由于元数据的其对应的数据模型是紧密关联的，所以元数据的生命周期基本和对应的数据模型保持一致。但是也如前文所说，元数据通常为运维人员的主动操作的数据，会被 Nacos 进行一段时间内的记忆，因此元数据的生命周期的终止相比对应的数据要滞后；若这滞后期间内，对应的数据又重新开始生命周期，则该元数据的生命周期将被立刻重置，不再终止。
+由于元数据与其对应的数据模型是紧密关联的，所以元数据的生命周期基本和对应的数据模型保持一致。但是也如前文所说，元数据通常为运维人员的主动操作的数据，会被 Nacos 进行一段时间内的记忆，因此元数据的生命周期的终止相比对应的数据要滞后；若这滞后期间内，对应的数据又重新开始生命周期，则该元数据的生命周期将被立刻重置，不再终止。
 
 ![image.png](https://cdn.nlark.com/yuque/0/2021/png/1577777/1638848975726-3870ca8b-146f-4fc6-9445-3437d3da21c4.png#clientId=u600ab42f-509e-4&from=paste&height=996&id=u96da299a&originHeight=996&originWidth=1768&originalType=binary&ratio=1&rotation=0&showTitle=false&size=377209&status=done&style=none&taskId=u50df20fd-e9c1-441e-9e8a-936bfeaceb1&title=&width=1768)<br />图5 各数据的生命周期图
 <a name="TXErF"></a>
